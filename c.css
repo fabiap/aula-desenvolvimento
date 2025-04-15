@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.logo-info{
+    display: flex;
+    align-items: center;
+}
+.menu{
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+.menu :hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+main{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 40px;
+}
+h1{
+    color: red;
+}
+h2{
+    color: green;
+}
+.card{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 250px;
+}
