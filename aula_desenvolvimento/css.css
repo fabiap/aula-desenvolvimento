@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #224488;
+    color: white;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 36px;
+    height: 36px;
+}
+.menu{
+    display: flex;
+    list-style-type: none; /*tira as bolinhas da lista*/
+    align-items: center;
+    justify-content: flex-end;
+}
+.menu li{
+    padding: 20px 10px;
+}
+.menu img{
+    width: 16px;
+    height: 16px;
+    padding-right: 20px 20px;
+}
+.main{
+    display: grid;
+    grid-template-areas:
+        "titulos" 
+        "cartoes";
+}
+.titulos{
+    grid-area: titulos;
+    justify-items: center;
+}
+.cartoes{
+    grid-area: cartoes;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    column-gap: 20px;
+}
+.card{
+    width: 180px;
+    height: 240px;
+    border: 1px solid black;
+    border-radius: 4px;}
