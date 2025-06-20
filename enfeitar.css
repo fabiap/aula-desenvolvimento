@@ -1,0 +1,48 @@
+.conteudo{
+font-size: 1.4rem;
+background-color: #ffffff;
+padding: 1.5rem;
+text-align: justify;
+margin: 0 auto;
+max-width: 95%;
+
+}
+
+html{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 62.5%;
+}
+
+
+nav{
+    text-align: right;
+    font-size: 1.6rem;
+    word-spacing: 10px;
+    margin-right: 5%;
+}
+a{
+    text-decoration: none;
+    color: #FFDEAD;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+a:hover{
+    color: #F4A460;
+}
+
+header{
+    background-color: #8B4513;
+    color: #FFDEAD;
+    font-size: 1.8rem;
+    padding: 1rem;
+    padding-top: 2rem;
+    position: fixed;
+    width: 100%;
+}
+
+.imagens{
+    border-radius: 20px 20px 50px 20px;
+    width: 30%;
+    height: 10%;}
+
