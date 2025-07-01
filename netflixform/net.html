@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form Netflix</title>
+    <link rel="stylesheet" href="net.css">
+</head>
+<body>
+    <div class="form-container">
+        <form id="form" class="form-login" action="https://jkorpela.fi/cgi-bin/echo.cgi" method="post">
+            
+            <label for="email">email:</label> <!--quando clica no form, foca na caixinha de email, por causa do id-->
+            <input type="email" name="email" id="email" placeholder="email">
+            
+            <label for="password">senha:</label>
+            <input type="password" name="password" id="password" placeholder="senha">
+            
+            <button id="form-login-entrar" type="submit">entrar</button>
+            
+            <label class="OU" for="">OU</label>
+        
+            <button class="form-login-codigo" type="button">usar codigo de acesso</button>
+        
+        </form>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>
